@@ -22,17 +22,17 @@
 </head>
 
 <body>
-  <div class="flex-container">
-    <img id="mogus0" src="" alt="sumoga.xyz">
-    <img id="mogus1" src="" alt="sumoga.xyz">
-    <img id="mogus2" src="" alt="sumoga.xyz">
-    <img id="mogus3" src="" alt="sumoga.xyz">
-    <img id="mogus4" src="" alt="sumoga.xyz">
-    <img id="mogus5" src="" alt="sumoga.xyz">
-    <img id="mogus6" src="" alt="sumoga.xyz">
-    <script>for(var i=0;i<array.length;i++) {
-      document.getElementById(`mogus${i}`).src = shuffled_images[i];
-      }</script>
+  <div class="flex-container" id="header">
+    <script>
+      for(var i=0; i<array.length; i++) {
+        var img = document.createElement("img");
+        img.src = shuffled_images[i];
+        img.id = `mogus${i}`;
+        img.alt = shuffled_images[i].slice(8);
+        var src = document.getElementById("header");
+        src.appendChild(img);
+      }
+    </script>
   </div>
 </body>
 </html>
