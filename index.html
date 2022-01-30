@@ -19,9 +19,9 @@
 <body>
   <div id="header">
     <h1>
-      Welcome to <a href="https://sugoma.xyz">sugoma.xyz</a>
+      WELCOME TO <a href="https://sugoma.xyz">SUGOMA.XYZ</a>
     </h1><h3>
-      The sussiest place on the internet.
+      THE SUSSIEST PLACE ON THE INTERNET.
     </h3>
   </div>
   <div class="flex-container" id="amogus">
@@ -29,8 +29,8 @@
       for(var i=0; i<array.length; i++) {
         var img = document.createElement("img");
         img.src = shuffled_images[i];
-        img.id = `mogus${i}`;
         img.alt = shuffled_images[i].slice(8);
+        img.id = array[i].slice(8, -4);
         var src = document.getElementById("amogus");
         src.appendChild(img);
       }

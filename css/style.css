@@ -1,12 +1,24 @@
 .flex-container {
     display: flexbox;
 }
+@font-face {
+    font-family: sus;
+    src: url(../font.ttf);
+  }
 #header {
-    font-family: Verdana;
+    font-family: sus;
     text-align: center;
+    font-size: 25px;
 }
 img {
     width: auto;
     height: 500px;
     flex: 1 1 calc(25% - 10px);
+    transition: all .5s ease-in-out;
+}
+img:hover {
+    transform: scale(1.1);
+}
+#obama:hover {
+    content: url("../content/obamium.png");
 }
