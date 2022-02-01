@@ -20,5 +20,5 @@ img:hover {
     transform: scale(1.1);
 }
 #obama:hover {
-    content: url("../content/obamium.png");
+    content: url("../content/obamium.jpg");
 }

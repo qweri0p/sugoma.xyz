@@ -1,12 +1,13 @@
 var array = [
     'content/gex.jpg',
-    'content/ranno.png',
+    'content/ranno.jpg',
     'content/sumoga.jpg',
-    'content/yosus.png',
-    'content/sus-monokuma.png',
-    'content/sauce-game.png',
-    'content/mario-hill.png',
-    'content/obama.png',
+    'content/yosus.jpg',
+    'content/sus-monokuma.jpg',
+    'content/sauce-game.jpg',
+    'content/mario-hill.jpg',
+    'content/obama.jpg',
+    'content/trump.jpg'
 ];
 console.log(array)
 function shuffle(array) {
