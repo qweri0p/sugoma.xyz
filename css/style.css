@@ -10,6 +10,10 @@
     text-align: center;
     font-size: 25px;
 }
+body {
+    background-color: #000010;
+    color: #ffffff;
+}
 img {
     width: auto;
     height: 500px;
@@ -21,4 +25,16 @@ img:hover {
 }
 #obama:hover {
     content: url("../content/obamium.jpg");
+}
+#footer {
+    font-family: sus;
+    text-align: center;
+    font-size: 25px;
+}
+a:hover {
+    text-decoration: dashed underline;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
 }
