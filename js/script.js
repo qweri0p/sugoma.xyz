@@ -10,6 +10,7 @@ var array = [
     'content/trump.jpg',
     'content/sus-monomi.jpg',
     'content/kimju.jpg',
+    'content/heheheha.jpg'
 ];
 console.log(array)
 function shuffle(array) {
