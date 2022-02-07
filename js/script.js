@@ -7,7 +7,9 @@ var array = [
     'content/sauce-game.jpg',
     'content/mario-hill.jpg',
     'content/obama.jpg',
-    'content/trump.jpg'
+    'content/trump.jpg',
+    'content/sus-monomi.jpg',
+    'content/kimju.jpg',
 ];
 console.log(array)
 function shuffle(array) {
