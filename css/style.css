@@ -1,5 +1,8 @@
 #amogus {
-    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    padding: 10px;
 }
 @font-face {
     font-family: sus;
@@ -10,7 +13,9 @@
     text-align: center;
     font-size: 25px;
 }
-
+main {
+    position: absolute;
+}
 body {
     color: white;
     width: 100vw;
@@ -20,16 +25,23 @@ body {
     background-color: #000022;
 }
 img {
-    width: auto;
+    margin: 15px;
     height: 500px;
-    flex: 1 1 calc(25% - 10px);
+    flex: 1 1 auto;
     transition: all .5s ease-in-out;
+    align-items: center;
+    box-flex: 1;
+    -webkit-flex: 1 1 calc(1% - 10px);
+    max-width: 100%;
 }
 img:hover {
     transform: scale(1.1);
 }
-#obama:hover {
+#obamium:hover {
     content: url("../content/obamium.jpg");
+}
+#obamium {
+    content: url("../content/obama.jpg");
 }
 #footer {
     font-family: sus;
@@ -42,4 +54,9 @@ a:hover {
 a {
     text-decoration: none;
     font-weight: bold;
+}
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
 }

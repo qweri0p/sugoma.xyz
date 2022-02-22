@@ -4,11 +4,9 @@ var array = [
     'content/sumoga.jpg',
     'content/yosus.jpg',
     'content/sus-monokuma.jpg',
-    'content/sauce-game.jpg',
     'content/mario-hill.jpg',
-    'content/obama.jpg',
+    'content/obamium.jpg',
     'content/trump.jpg',
-    'content/sus-monomi.jpg',
     'content/kimju.jpg',
     'content/heheheha.jpg',
     'content/hackerman.jpg'
