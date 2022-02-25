@@ -18,9 +18,7 @@ main {
 }
 body {
     color: white;
-    width: 100vw;
-    height: 500vh;
-    z-index: 99;
+    width: 98vw;
     position: absolute;
     background-color: #000022;
 }
