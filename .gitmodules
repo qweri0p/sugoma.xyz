@@ -1,0 +1,8 @@
+[submodule "AmogusCounter"]
+  path = counter
+  url = git@github.com/qweri0p/AmogusCounter.git
+  branch = gh-pages
+[submodule "counter"]
+	path = counter
+	url = https://github.com/qweri0p/AmogusCounter
+	branch = gh-pages
