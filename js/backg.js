@@ -13,11 +13,19 @@ const amogusTexture = new THREE.TextureLoader().load('sus.png');
 
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.autoRotate = true;
-controls.autoRotateSpeed = 1;
+controls.autoRotateSpeed = 0.5;
 controls.target = new THREE.Vector3(.5, .5, .5);
 controls.enableZoom = false;
 controls.enableRotate = false;
 controls.enablePan = false;
+
+function onWindowResize() {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize( window.innerWidth, window.innerHeight );
+}
+window.addEventListener( 'resize', onWindowResize );
+onWindowResize();
 
 
 function addstar() {
@@ -49,8 +57,6 @@ function animate() {
     controls.update();
     requestAnimationFrame(animate);
     renderer.render(scene, camera);
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setPixelRatio(window.devicePixelRatio);
     amogus.rotation.x += 0.01;
     amogus.rotation.y += 0.01;
     amogus.rotation.z += 0.01;

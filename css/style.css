@@ -58,3 +58,9 @@ canvas {
     top: 0;
     left: 0;
 }
+#counter {
+    position: fixed;
+    top: 1;
+    left: 0;
+    transform: rotate(-45deg);
+}
