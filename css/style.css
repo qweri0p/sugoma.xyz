@@ -59,8 +59,15 @@ canvas {
     left: 0;
 }
 #counter {
-    position: fixed;
-    top: 1;
+    position: relative;
+    display:inline;
+    float: left;
+    top: 50px;
     left: 0;
     transform: rotate(-45deg);
+}
+h1 {
+    display: block;
+    font-family: sus;
+    text-align: center;
 }
