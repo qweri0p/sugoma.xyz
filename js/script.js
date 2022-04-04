@@ -9,7 +9,20 @@ var array = [
     'content/trump.jpg',
     'content/kimju.jpg',
     'content/heheheha.jpg',
-    'content/hackerman.jpg'
+    'content/hackerman.jpg',
+    'content/omori.jpg',
+    'content/hit.jpg',
+    'content/put.jpg',
+    'content/cacodemon.jpg',
+    'content/sonk.jpg',
+    'content/kirby.jpg',
+    'content/garfield.jpg',
+    'content/tf2.jpg',
+    'content/shodan.jpg',
+    'content/rick.jpg',
+    'content/ultrak.jpg',
+    'content/deusex.jpg',
+    'content/hl.jpg',
 ];
 console.log(array)
 function shuffle(array) {

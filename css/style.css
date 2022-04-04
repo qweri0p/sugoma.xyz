@@ -26,14 +26,14 @@ img {
     margin: 15px;
     height: 500px;
     flex: 1 1 auto;
-    transition: all .5s ease-in-out;
+    transition: all .1s ease-in-out;
     align-items: center;
     box-flex: 1;
     -webkit-flex: 1 1 calc(1% - 10px);
     max-width: 100%;
 }
 img:hover {
-    transform: scale(1.1);
+    transform: scale(1.025);
 }
 #obamium:hover {
     content: url("../content/obamium.jpg");

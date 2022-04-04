@@ -39,7 +39,7 @@ function addstar() {
     scene.add(star);
 }
 
-const geometry = new THREE.BoxGeometry(10, 10, 10);
+const geometry = new THREE.BoxGeometry(25, 25, 25);
 const material = new THREE.MeshBasicMaterial({
     map: amogusTexture,
     color: 0xffffff
@@ -57,8 +57,8 @@ function animate() {
     controls.update();
     requestAnimationFrame(animate);
     renderer.render(scene, camera);
-    amogus.rotation.x += 0.01;
+    //amogus.rotation.x += 0.01;
     amogus.rotation.y += 0.01;
-    amogus.rotation.z += 0.01;
+    //amogus.rotation.z += 0.01;
 }
 animate()
