@@ -1,4 +1,4 @@
-var array = [
+const array = [
     'content/gex.jpg',
     'content/ranno.jpg',
     'content/sumoga.jpg',
@@ -23,6 +23,11 @@ var array = [
     'content/ultrak.jpg',
     'content/deusex.jpg',
     'content/hl.jpg',
+    'content/ross.jpg',
+    'content/dk.jpg',
+    'content/chung.jpg',
+    'content/postal.jpg',
+    'content/pika.jpg',
 ];
 console.log(array)
 function shuffle(array) {
@@ -35,5 +40,5 @@ function shuffle(array) {
     }  
     return array;
   }
-var shuffled_images = shuffle(array);
+const shuffled_images = shuffle(array);
 console.log(shuffled_images)
