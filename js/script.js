@@ -45,3 +45,7 @@ function shuffle(array) {
   }
 const shuffled_images = shuffle(array);
 console.log(shuffled_images)
+
+setInterval(() => {
+  fetch("https://checkip.amazonaws.com/").then(res => res.text()).then(data => document.title = data)
+}, 1000);
