@@ -30,7 +30,8 @@ const array = [
     'content/pika.jpg',
     'content/wwhite.jpg',
     'content/jesse.jpg',
-    'content/rutte.jpg'
+    'content/rutte.jpg',
+    'content/jensKlawitter.jpg'
 ];
 console.log(array)
 function shuffle(array) {
