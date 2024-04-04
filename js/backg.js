@@ -1,5 +1,5 @@
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js';
-import { OrbitControls } from 'https://qweri0p.github.io/sugoma.xyz/js/OrbitControls.js';
+import { OrbitControls } from '/js/OrbitControls.js';
 const scene = new THREE.Scene();
 
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -22,9 +22,9 @@ controls.enablePan = false;
 function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
-    renderer.setSize( window.innerWidth, window.innerHeight );
+    renderer.setSize(window.innerWidth, window.innerHeight);
 }
-window.addEventListener( 'resize', onWindowResize );
+window.addEventListener('resize', onWindowResize);
 onWindowResize();
 
 
@@ -34,8 +34,8 @@ function addstar() {
         color: 0xffffff
     });
     const star = new THREE.Mesh(geometry, material);
-    const [x,y,z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread(300));
-    star.position.set(x,y,z);
+    const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread(300));
+    star.position.set(x, y, z);
     scene.add(star);
 }
 
