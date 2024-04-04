@@ -1,0 +1,4 @@
+[submodule "counter"]
+	path = counter
+	url = https://github.com/qweri0p/amogusCounter
+	branch = gh-pages
