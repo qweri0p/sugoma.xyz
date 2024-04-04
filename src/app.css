@@ -1,0 +1,32 @@
+@font-face {
+	font-family: sus;
+	src: url(/font.ttf);
+}
+
+canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+:root {
+	font-family: sus;
+	color: white;
+}
+
+/* Resetting default styles 
+* TYSM CHATGPT
+* */
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+/* Explicitly setting padding for body */
+body {
+	padding: 0;
+}
