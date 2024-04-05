@@ -1,6 +1,3 @@
-name: build
-on: [push]
-
 name: Build and Deploy
 
 on:
