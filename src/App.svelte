@@ -8,18 +8,35 @@
   }
   import { data } from "./data";
   import Meme from "./Meme.svelte";
+  import Counter from "./Counter.svelte";
   const funnydata = shuffleArray(data);
 </script>
 
-<canvas id="c"></canvas>
 <div id="header">
+  <Counter /><br />
   <h1>WELCOME TO <a href="https://sugoma.xyz">SUGOMA.XYZ</a></h1>
   <h3>THE SUSSIEST PLACE ON THE INTERNET.</h3>
 </div>
 <div id="content">
   {#each funnydata as image}
-    <Meme {image}></Meme>
+    <Meme {image} />
   {/each}
+</div>
+<div id="footer">
+  <p>
+    <a href="https://sugoma.xyz">SUGOMA.XYZ</a> is a website dedicated to the
+    worst amogus memes on the internet.
+    <br />The source code is available on
+    <a href="https://github.com/qweri0p/sugoma.xyz">GitHub</a>.
+    <br />Feel free to suggest new amogus memes at the
+    <a href="https://github.com/qweri0p/sugoma.xyz/issues">Github issues</a>
+    page.
+    <br />Don't forget to check out the
+    <a href="https://steamcommunity.com/groups/sugoma-xyz"
+      >Official Steam Group</a
+    >.
+    <br /><br />i use <a href="https://archlinux.org">arch</a> btw.
+  </p>
 </div>
 
 <style>
@@ -35,5 +52,10 @@
   }
   h1 {
     display: block;
+    text-align: center;
+  }
+  #footer {
+    text-align: center;
+    font-size: 25px;
   }
 </style>

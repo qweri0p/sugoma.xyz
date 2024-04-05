@@ -7,7 +7,7 @@
 
 <style>
 	img {
-		margin: 50px;
+		margin: 15px;
 		height: 500px;
 		transition: all 0.1s ease-in-out;
 		align-items: center;

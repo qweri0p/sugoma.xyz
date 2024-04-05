@@ -15,6 +15,15 @@ canvas {
 	color: white;
 }
 
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: dashed underline;
+}
+
 /* Resetting default styles 
 * TYSM CHATGPT
 * */
