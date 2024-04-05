@@ -8,7 +8,7 @@
 <style>
 	img {
 		margin: 15px;
-		height: 500px;
+		height: 50vmin;
 		transition: all 0.1s ease-in-out;
 		align-items: center;
 		flex-grow: 1;
