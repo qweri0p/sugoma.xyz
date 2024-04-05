@@ -31,7 +31,7 @@ for (const file of files) {
 // Remove obamium from the array because that one is a secret
 // This is the most normal part of the code
 // speed doesn't matter here because this script is only run at compile time
-array = array.filter((item) => item !== '/memes/obamium.jpg')
+array = array.filter((item) => item !== '/memes/obama.jpg')
 
 // THE DEVIL INCARNATE
 const newdata = `export const data = ${JSON.stringify(array)};`

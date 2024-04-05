@@ -23,7 +23,10 @@
 	Yes, this is bad.
 	No, I'dont care.
 	*/
-	#obama:hover {
+	#obamium:hover {
 		content: url("/memes/obamium.jpg");
+	}
+	#obamium {
+		content: url("/memes/obama.jpg");
 	}
 </style>
