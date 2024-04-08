@@ -3,7 +3,7 @@
 
 <script lang="ts">
 	import { onMount, onDestroy } from "svelte";
-	const jumpscaretimer = 30e3; // 30 seconds
+	const jumpscaretimer = 60e3; // 60 seconds
 
 	let userInactive = false;
 	let inactiveTimeout: number;
