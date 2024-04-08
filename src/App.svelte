@@ -8,9 +8,12 @@
   }
   import { data } from "./data";
   import Meme from "./Meme.svelte";
+  import Josh from "./Josh.svelte";
   import Counter from "./Counter.svelte";
   const funnydata = shuffleArray(data);
 </script>
+
+<Josh />
 
 <div id="header">
   <Counter /><br />
