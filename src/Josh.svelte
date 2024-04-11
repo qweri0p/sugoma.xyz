@@ -12,6 +12,7 @@
 	function resetInactiveState() {
 		clearTimeout(inactiveTimeout);
 		userInactive = false;
+		document.title = "Sougon deez nuts lmao";
 		// Restart the timer
 		startInactiveTimer();
 	}
@@ -27,8 +28,7 @@
 	function startInactiveTimer() {
 		inactiveTimeout = setTimeout(() => {
 			userInactive = true;
-			// Perform actions when the user is inactive
-			console.log("User is inactive");
+			document.title = "JUMBO JOSH APPEARS!!!!";
 		}, jumpscaretimer); // Adjust this value to set the duration of inactivity
 	}
 
